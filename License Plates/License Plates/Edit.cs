@@ -21,6 +21,9 @@ namespace License_Plates
 
             this.vehicles = vehicles;
             dataGridView1.DataSource = vehicles;
+            year.Minimum = 1886; 
+            year.Maximum = DateTime.Now.Year + 1;
+            year.Value = 2000;
         }
         private void Edit_Load(object sender, EventArgs e)
         {
