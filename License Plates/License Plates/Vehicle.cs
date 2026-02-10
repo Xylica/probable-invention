@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace License_Plates
 {
+    /// <remarks>
+    /// Author: Catherine Gizzi
+    /// Date Created: January 14th 2026
+    /// Bugs: None known at this time.
+    /// </remarks>
+    /// <summary>
+    /// This class is to create objects of vehicles with 2 constructors.
+    /// </summary>
     internal class Vehicle
     {
+        // Fields for vehicle
         private string plate;
         private int year;
         private string type;
@@ -20,6 +29,7 @@ namespace License_Plates
         private string colour;
         private bool owned;
 
+        // Constructor for creating a vehicle
         public Vehicle(string plate, int year, string type, string make, string model, string submodel, int size, string transmission, string style, string colour, bool owned)
         {
             this.plate = plate;
@@ -35,8 +45,10 @@ namespace License_Plates
             this.owned = owned;
         }
 
+        // Empty constructor for adding a new vehicle
         public Vehicle() { }
 
+        // Encapsulation for vehicle fields
         public string Plate { get => plate; set => plate = value; }
         public int Year { get => year; set => year = value; }
         public string Type { get => type; set => type = value; }

@@ -9,6 +9,14 @@ using System.Threading.Tasks;
 
 namespace License_Plates
 {
+    /// <remarks>
+    /// Author: Catherine Gizzi
+    /// Date Created: January 14th 2026
+    /// Bugs: None known at this time.
+    /// </remarks>
+    /// <summary>
+    /// This class is to write all vehicle objects to a text file.
+    /// </summary>
     internal class DataWriter
     {
         internal static void WriteToFile(string filepath, List<Vehicle> vehicles)

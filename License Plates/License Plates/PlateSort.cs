@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace License_Plates
 {
+    /// <remarks>
+    /// Author: Catherine Gizzi
+    /// Date Created: January 14th 2026
+    /// Bugs: None known at this time.
+    /// </remarks>
+    /// <summary>
+    /// This class is to take 2 vehicles and compare/sort them by license plate characters alphanumerically, numbers first then letters. 
+    /// </summary>
     internal class PlateComparer : IComparer<Vehicle>
     {
         public int Compare(Vehicle x, Vehicle y)

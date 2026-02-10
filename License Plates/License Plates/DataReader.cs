@@ -8,6 +8,14 @@ using System.Windows.Forms;
 
 namespace License_Plates
 {
+    /// <remarks>
+    /// Author: Catherine Gizzi
+    /// Date Created: January 14th 2026
+    /// Bugs: None known at this time.
+    /// </remarks>
+    /// <summary>
+    /// This class is to read vehicle object data from a text file.  
+    /// </summary>
     internal class DataReader
     {
         public static List<Vehicle> ReadFromFile(string filepath)

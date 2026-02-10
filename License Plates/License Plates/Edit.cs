@@ -10,6 +10,15 @@ using System.Windows.Forms;
 
 namespace License_Plates
 {
+    /// <remarks>
+    /// Author: Catherine Gizzi
+    /// Date Created: January 14th 2026
+    /// Bugs: None known at this time.
+    /// </remarks>
+    /// <summary>
+    /// This class is to edit a vehicles data, add, edit, or remove data or a vehicle from the objects list. When adding, depending on what type of vehicle is selected,
+    /// it will pick via a switch what style and make subsets will be displayed in the corrisponding drop down menus.
+    /// </summary>
     internal partial class Edit : Form
     {
 

@@ -10,6 +10,14 @@ using System.Windows.Forms;
 
 namespace License_Plates
 {
+    /// <remarks>
+    /// Author: Catherine Gizzi
+    /// Date Created: January 14th 2026
+    /// Bugs: None known at this time.
+    /// </remarks>
+    /// <summary>
+    /// This class is the menu to open either the view or edit forms.
+    /// </summary>
     public partial class Menu : Form
     {
         private static List<Vehicle> vehicles;

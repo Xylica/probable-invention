@@ -10,6 +10,14 @@ using System.Windows.Forms;
 
 namespace License_Plates
 {
+    /// <remarks>
+    /// Author: Catherine Gizzi
+    /// Date Created: January 14th 2026
+    /// Bugs: None known at this time. not linked to texty file yet
+    /// </remarks>
+    /// <summary>
+    /// This class is to view all the vehicles from the text file.
+    /// </summary>
     internal partial class View : Form
     {
 
